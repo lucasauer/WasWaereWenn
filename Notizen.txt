@@ -1,0 +1,32 @@
+Was wäre, wenn die Residuen in einem Regressionsmodell heteroskedastisch sind?
+* Was passiert mit den geschätzten Koeffizienten
+* Was passiert mit den Tests? (Fehler 1. Art, Power)
+
+
+
+Regression, Fahrmeir et al. 2009 (S. 61):
+
+* Fehler werden im klassischen linearen Modell als homoskedastisch angenommmen
+* Erwartungswert der Residuen gleich 0
+* Residuen additiv
+* Residuen unkorreliert
+
+* In vielen Fällen Annahme normalverteilter Residuen
+
+
+Regression, Fahrmeir et al. 2009 (S. 64 ff):
+
+* Homoskedastische Varianz der Störgrößen bedeutet, dass die Fehler nicht in Abhängigkeit der Zielgröße bzw. einer oder mehrerer Kovariablen systematisch größer oder kleiner werden. 
+* Abbildung S. 65
+* Typischer Fall heteroskedastischer Varianzen ist "trichterförmige" Varianz (Streuung um die Regressionsgerade nimmt mit wachsendem x zu). Störgrößen schwanken um 0, werden aber mit wachsendem x immer größer
+* Untersuchung der Residuen vergleiche Abschnitt 3.6.4
+* Auswirkungen heteroskedastischer Varianzen: Varianzen der geschätzten Regressionskoeffizienten nicht korrekt geschätzt. Dieser Fehler hat Auswirkungen auf Hypothesentests über die Regressionsparameter und deren Konfidenzintervalle (siehe Abschnitt 3.4)
+
+
+Regression, Fahrmeir et al. 2009 (S. 124 ff):
+
+* Verallgemeinerung des linearen Modells für den Fall heteroskedastischer (und nach wie vor unkorrelierter) Störgrößen 
+* W positiv definite Wichtungsmatrix(?) anstelle der Einheitsmatrix
+* Auswirkung auf den KQ-Schätzer: Immernoch erwartungstreu für beta, Kovarianzmatrix stimmt nicht mehr mit der aus dem klassischen linearen Modell überein (Damit alle Größen, die sich aus der Kovarianzmatrix berechnen falsch, insb. keine korrekten Varianzen und Standardfehler)
+* Eine Lösung: Gewichtete Methode der kleinsten Quadrate (siehe Abschnitt 3.4.2)
+
