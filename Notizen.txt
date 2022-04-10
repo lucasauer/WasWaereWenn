@@ -33,7 +33,7 @@ wikipedia: Heteroscedasticity
 * biased standard errors lead to biased inference (i.e. results of hypothesis tests may be wrong)
 * "unequal error variance is worth correcting only when the problem is severe", some econometritian
 * For non-linear models (e.g. Logit) more severe consequences, since maximum likelihood estimator is biased and inconsistent
-* multivariate case: 
+* multivariate case: study of heteroscedasticity has been generalized to the multivariate case
 
 
 Regression, Fahrmeir et al. 2009 (S. 124 ff):
@@ -57,10 +57,3 @@ Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen du
 * Variablentransformation (S. 132)
 * Zweistufige Schätzung (S. 133)
 * White-Schätzer (S. 135)
-
-
-
-
-
-
-
