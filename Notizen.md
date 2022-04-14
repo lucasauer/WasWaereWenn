@@ -1,8 +1,12 @@
-Was wäre, wenn die Residuen in einem Regressionsmodell heteroskedastisch sind?
+## Was wäre, wenn die Residuen in einem Regressionsmodell heteroskedastisch sind?
 * Was passiert mit den geschätzten Koeffizienten
 * Was passiert mit den Tests? (Fehler 1. Art, Power)
 
+* Insb. auch: Gibt es Maßzahlen für den Grad der Heteroskedastizität?
 
+----
+
+### Über Heteroskedastizität allgemein
 
 Regression, Fahrmeir et al. 2009 (S. 61):
 
@@ -49,9 +53,7 @@ Regression, Fahrmeir et al. 2009 (S. 124 ff):
 * In ökonometrischer Literatur viele Schätz- und Modellierungsverfahren für den Fall heteroskedastischer Fehler (z.B. Greene, 2000)
 * Hier vorgestellte Varianten setzen Kenntnis über die Art der Heteroskedastizität voraus
 * Außerdem weiteres Verfahren, bei dem Kenntnis über die Art nicht vorausgesetzt wird (entwickelt von White, 1980)
-
-Wie stellt man heteroskedastische Fehler fest?
-* Schätze klassisches lineares Modell und untersuche Residuen (v.a. Residualplots, auch Tests (z.B. Bartlett-Test) möglich (vgl. S. 131))
+* Wie stellt man heteroskedastische Fehler fest?: Schätze klassisches lineares Modell und untersuche Residuen (v.a. Residualplots, auch Tests (z.B. Bartlett-Test) möglich (vgl. S. 131))
 
 Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen durch die Nichtbeachtung der Heteroskedastizität
 * Variablentransformation (S. 132)
