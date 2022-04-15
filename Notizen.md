@@ -43,7 +43,7 @@ wikipedia: Heteroscedasticity
 Regression, Fahrmeir et al. 2009 (S. 124 ff):
 
 * Verallgemeinerung des linearen Modells für den Fall heteroskedastischer (und nach wie vor unkorrelierter) Störgrößen 
-* W positiv definite Wichtungsmatrix(?) anstelle der Einheitsmatrix
+* W positiv definite Wichtungsmatrix anstelle der Einheitsmatrix
 * Auswirkung auf den KQ-Schätzer: Immernoch erwartungstreu für beta, Kovarianzmatrix stimmt nicht mehr mit der aus dem klassischen linearen Modell überein (Damit alle Größen, die sich aus der Kovarianzmatrix berechnen falsch, insb. keine korrekten Varianzen und Standardfehler)
 * Eine Lösung: Gewichtete Methode der kleinsten Quadrate (siehe Abschnitt 3.4.2)
 
@@ -54,6 +54,7 @@ Regression, Fahrmeir et al. 2009 (S. 124 ff):
 * Hier vorgestellte Varianten setzen Kenntnis über die Art der Heteroskedastizität voraus
 * Außerdem weiteres Verfahren, bei dem Kenntnis über die Art nicht vorausgesetzt wird (entwickelt von White, 1980)
 * Wie stellt man heteroskedastische Fehler fest?: Schätze klassisches lineares Modell und untersuche Residuen (v.a. Residualplots, auch Tests (z.B. Bartlett-Test) möglich (vgl. S. 131))
+* Standardisierung von Residuen nötig? (vgl. S. 108-110)
 
 Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen durch die Nichtbeachtung der Heteroskedastizität
 * Variablentransformation (S. 132)
