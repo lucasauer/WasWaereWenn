@@ -84,3 +84,5 @@ https://stats.stackexchange.com/questions/33028/measures-of-residuals-heterosced
 Weiterlesen: "simple measure for heteroscedasticity" in The Detection of Heteroscedasticity in
 Regression Models for Psychological Data (Klein et al.)
 
+White-Test?
+
