@@ -64,7 +64,12 @@ Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen du
 
 ### Wie misst man Heteroskedastizität?
 
-Über Tests zur Existenz von Heteroskedastizität (Breusch-Pagan-Test to identify heteroscedasticity)
+Über Tests zur Existenz von Heteroskedastizität 
+
+Bartlett-Test, Breusch Pagan Test, Score Test, F Test
+https://cran.r-project.org/web/packages/olsrr/vignettes/heteroskedasticity.html
+
+Breusch Pagan Test to identify heteroscedasticity
 https://www.r-bloggers.com/2021/07/how-to-measure-heteroscedasticity-in-regression/
 
 Aber gibt nicht wirklich den Grad an. Man kann trotzdem mittels Teststatistik quantifizieren
@@ -76,5 +81,6 @@ Explorative Lösung mittels "wandering-schematic plot"
 https://stats.stackexchange.com/questions/33028/measures-of-residuals-heteroscedasticity
 
 
-
+Weiterlesen: "simple measure for heteroscedasticity" in The Detection of Heteroscedasticity in
+Regression Models for Psychological Data (Klein et al.)
 
