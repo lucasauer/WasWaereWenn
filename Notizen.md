@@ -60,3 +60,11 @@ Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen du
 * Variablentransformation (S. 132)
 * Zweistufige Schätzung (S. 133)
 * White-Schätzer (S. 135)
+
+
+### Wie misst man Heteroskedastizität?
+
+Über Tests zur Existenz von Heteroskedastizität
+https://www.r-bloggers.com/2021/07/how-to-measure-heteroscedasticity-in-regression/
+
+Aber gibt nicht wirklich den Grad an.
