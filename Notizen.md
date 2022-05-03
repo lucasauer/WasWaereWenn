@@ -67,5 +67,14 @@ Maßnahmen bei Heteroskedastizität: Dienen der Vermeidung von Fehlschlüssen du
 Über Tests zur Existenz von Heteroskedastizität (Breusch-Pagan-Test to identify heteroscedasticity)
 https://www.r-bloggers.com/2021/07/how-to-measure-heteroscedasticity-in-regression/
 
+Aber gibt nicht wirklich den Grad an. Man kann trotzdem mittels Teststatistik quantifizieren
 
-Aber gibt nicht wirklich den Grad an.
+https://stats.stackexchange.com/questions/33028/measures-of-residuals-heteroscedasticity
+
+Explorative Lösung mittels "wandering-schematic plot"
+
+https://stats.stackexchange.com/questions/33028/measures-of-residuals-heteroscedasticity
+
+
+
+
