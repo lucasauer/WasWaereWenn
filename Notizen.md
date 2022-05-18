@@ -6,6 +6,7 @@
 
 __IDEEN:__
 * Für die verschiedenen Parametereinstellungen schauen, wie häufig der BP-Test Heteroskedastizität erkennt
+* t-Tests für wahres beta zu geschätztem beta und Wahrscheinlickeit über Simulationen berechnen
 
 ----
 
