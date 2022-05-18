@@ -4,6 +4,9 @@
 
 * Insb. auch: Gibt es Maßzahlen für den Grad der Heteroskedastizität?
 
+__IDEEN:__
+* Für die verschiedenen Parametereinstellungen schauen, wie häufig der BP-Test Heteroskedastizität erkennt
+
 ----
 
 ### Über Heteroskedastizität allgemein
