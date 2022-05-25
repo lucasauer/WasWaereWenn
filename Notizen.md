@@ -4,11 +4,13 @@
 
 * Insb. auch: Gibt es Maßzahlen für den Grad der Heteroskedastizität?
 
-__IDEEN:__
-* Für die verschiedenen Parametereinstellungen schauen, wie häufig der BP-Test Heteroskedastizität erkennt
-* t-Tests für wahres beta zu geschätztem beta und Wahrscheinlickeit über Simulationen berechnen
-  * Bzw. Hier vergleich der Wahrscheinlichkeiten wie oft wird abgelehnt bei welcher Fehlerfunktion 
-* Für die Power: empirische Signifikanzlevel berechnen. Schaue falsche Hypothese an (H_0: beta = 0) Siehe _Evaluating Size and Power_ in https://www.jstor.org/stable/pdf/2685594.pdf?refreqid=excelsior%3Acd3076cfc66feab655313929a1fe127e&ab_segments=&origin=&acceptTC=1
+__PLAN:__
+
+* Überprüfe geschätzte Koeffizienten für verschiedene Formen von Heteroskedastizität (Homoskedastizität)
+* Für wahres beta_1 = 0, überprüfe, wie häufig ein signifikanter, von 0 verschiedener Einfluss erkannt werden kann (Fehler 1. Art)
+* Für wahres beta_1 = 1, überprüfe, wie häufig kein signifikanter, von 0 verschiedener Einfluss erkannt werden kann (Power)
+* Heterskedastizitätsmaß: Theoretisch einleiten und Angabe der Messwerte für verschiedene Formen von Heteroskedastizität
+* Nach Rominas "Behebung" nochmal die Tests (hat sich was verbessert?)
 
 ----
 
