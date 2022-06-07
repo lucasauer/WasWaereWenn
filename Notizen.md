@@ -94,3 +94,6 @@ Regression Models for Psychological Data (Klein et al.)
 
 White-Test?
 
+
+https://stats.stackexchange.com/questions/240614/what-are-the-consequences-of-having-non-constant-variance-in-the-error-terms-in
+
